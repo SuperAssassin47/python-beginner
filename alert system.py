@@ -17,7 +17,7 @@ Label(root, text='Alert System', font='Helvetica 20 bold').place(x=160, y=10)
 
 #Function for the "Send Alert" button
 def send_alert():
-    mb.showinfo('Success', "I'm an alert")
+    mb.showinfo('Hello', "I'm an alert")
 
 #Button to "Send Alert" (output a messagebox alerting the user of a message)
 Button(root, text='Send Alert', font='arial 14 bold', bg='Red', command=send_alert).place(x=187, y=130)
