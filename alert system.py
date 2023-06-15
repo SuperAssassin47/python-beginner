@@ -1,16 +1,16 @@
-#Import the necessary modules ########
-import tkinter                       #
-from tkinter import *                #
-from tkinter import messagebox as mb #
-import pyautogui                     #
-######################################
+#Import the necessary modules
+import tkinter                       
+from tkinter import *                
+from tkinter import messagebox as mb 
+import pyautogui                     
 
-#The main crux of the application #########
-root = Tk()                               #
-root.geometry('500x500')                  #
-root.title('Alert System')                #
-root.resizable(width=FALSE, height=FALSE) #
-###########################################
+
+#The main crux of the application 
+root = Tk()                               
+root.geometry('500x500')                  
+root.title('Alert System')                
+root.resizable(width=FALSE, height=FALSE)
+
 
 #The title on the client area of the application
 Label(root, text='Alert System', font='Helvetica 20 bold').place(x=160, y=10)
