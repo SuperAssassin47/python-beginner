@@ -43,7 +43,7 @@ void june_2019()
     } while (!isdigit(contact[0]));
 
     do {
-        cout << "How many pizzas (1–6): ";
+        cout << "How many pizzas (1â€“6): ";
         cin >> numPizzas;
     } while (numPizzas < 1 || numPizzas > 6);
 
@@ -53,7 +53,7 @@ void june_2019()
     } while (!pizzaPrices.count(size));
 
     do {
-        cout << "Extra toppings (0–4): ";
+        cout << "Extra toppings (0â€“4): ";
         cin >> toppings;
     } while (toppings < 0 || toppings > 4);
 
@@ -70,7 +70,7 @@ void june_2019()
         standardCost += deliveryCharge;
 
     cout << fixed << setprecision(2);
-    cout << "\nTOTAL COST: £" << standardCost << "\n";
+    cout << "\nTOTAL COST: Â£" << standardCost << "\n";
 }
 
 void LawnCareCostCalculator()
@@ -90,12 +90,12 @@ void LawnCareCostCalculator()
     cin >> contact;
 
     do {
-        cout << "Lawn width (2–30): ";
+        cout << "Lawn width (2â€“30): ";
         cin >> width;
     } while (width < 2 || width > 30);
 
     do {
-        cout << "Lawn length (2–50): ";
+        cout << "Lawn length (2â€“50): ";
         cin >> length;
     } while (length < 2 || length > 50);
 
@@ -111,7 +111,7 @@ void LawnCareCostCalculator()
     double total = area * 0.5 * rate;
 
     cout << fixed << setprecision(2);
-    cout << "Total cost: £" << total << endl;
+    cout << "Total cost: Â£" << total << endl;
 }
 
 void passwordChecker()
