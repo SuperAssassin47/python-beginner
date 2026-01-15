@@ -15,7 +15,7 @@ clock = pygame.time.Clock()
 font_size = 20
 font = pygame.font.SysFont("MS Gothic", font_size, bold=True)
 
-# the main characters --> half-width KataKana
+# the strand characters --> half-width KataKana
 matrix_chars = "ｦｧｨｩｪｫｬｭｮｯｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ"
 
 # number of columns based on the font size
@@ -90,4 +90,5 @@ while running:
     clock.tick(60) # smooth 60 FPS (frames per second)
 
 pygame.quit()
+
 
